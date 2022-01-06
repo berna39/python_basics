@@ -16,5 +16,10 @@ print(drinks)
 drinks.remove("fanta") #removing fanta
 print(drinks)
 
+#adding elements
+drinks.append("water")
+print(drinks)
+
+
 
 
