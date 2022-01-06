@@ -24,3 +24,23 @@ if("Joel" in sentence):
 other_sentence = "I'm a ninja, and i like coding Taijustu"
 if("Python" not in other_sentence):
     print("No python there inside")
+
+#slicing a string
+country = "Hello Burkinafaso"
+print(country[3:9])
+
+#string transformation
+my_name = " kalema shango joseph bernard  "
+print(my_name.lower())
+print(my_name.upper())
+print(my_name.strip())
+
+#string spliting
+my_variable = "I Love God"
+string_splited = my_variable.split(" ")
+print(string_splited) 
+
+#concatenate strings
+first = "Hello,"
+second = "World!"
+print(first+ " "+second)
