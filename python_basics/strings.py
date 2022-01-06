@@ -44,3 +44,15 @@ print(string_splited)
 first = "Hello,"
 second = "World!"
 print(first+ " "+second)
+
+#String format
+age = 24
+sentence = "Hello, i'm Toby and i'm {}"
+print(sentence.format(age))
+
+#with mutliple arguments
+pi = 3.14
+my_age = 24 
+sentence = "Hello, i'm Toby and i'm {} and PI = {}"
+print(sentence.format(my_age, pi))
+
