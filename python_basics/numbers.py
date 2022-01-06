@@ -22,7 +22,7 @@ normal = 5
 complex_number = 2j
 print(normal+complex_number)
 
-converted = complex(normal);
+converted = complex(normal)
 
 print(float(normal))
 print(converted)
