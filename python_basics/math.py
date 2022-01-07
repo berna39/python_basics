@@ -13,3 +13,5 @@ s = 2
 print(pow(s, 3)) #same as s * s * s
 
 print(math.sqrt(64))
+
+print(math.pi)
