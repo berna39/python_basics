@@ -41,3 +41,25 @@ cars_tuple = ('bmw', 'volkvagen', 'volvo')
 print(bmw)
 print(volkvagen)
 print(volvo)
+
+#looping tuples
+for car in cars_tuple:
+    print('i like ' + car)
+
+for i in range(len(cars_tuple)):
+    print('i have ' + cars_tuple[i])
+
+# joining tuples
+teams_tuple = ('real madrid', 'milan', 'bayern', 'liverpool')
+
+others_teams_tuple = ('manchester united', 'arsenal', 'chalsea', 'marseille')
+
+comptetion_tuple = teams_tuple + others_teams_tuple
+
+print(comptetion_tuple)
+
+# tupple's length
+print(len(comptetion_tuple))
+
+# duplucate tuple's values
+print(teams_tuple * 2)
