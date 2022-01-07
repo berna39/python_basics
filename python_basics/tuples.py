@@ -33,3 +33,11 @@ testing_tuple = tuple(my_list)
 print(testing_tuple)
 
 
+#creating tuple is packing a tuple, we can also unpack the tuple
+cars_tuple = ('bmw', 'volkvagen', 'volvo')
+
+(bmw, volkvagen, volvo) = cars_tuple
+
+print(bmw)
+print(volkvagen)
+print(volvo)
