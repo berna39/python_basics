@@ -11,3 +11,5 @@ class Car:
     
     def vruum(selft):
         print('vrouuuuum')
+    def other(self):
+        pass
