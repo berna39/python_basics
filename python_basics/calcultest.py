@@ -8,3 +8,12 @@ first_number = input('enter the first number' )
 second_number = input('enter the second number' )
 sign = input('choose a sign : +, -, * , /')
 
+if sign == '+':
+    print(first_number + second_number)
+if sign == '-':
+    print(first_number-second_number)
+if sign == '*':
+    print(first_number*second_number)
+if sign == '/':
+    print(first_number-second_number)
+
