@@ -1,5 +1,5 @@
 basic_string = "Shikamaru"
-print("Hello "+basic_string)
+print("Hello " + basic_string)
 
 multiline_string = """frateli, d'italia,
 l'italia se desta"""
@@ -14,7 +14,7 @@ boo = "Toby"
 print(len(boo))
 
 for x in boo:
-    print(x+"\n")
+    print(x + "\n")
 
 #checking if a word contains sth
 sentence = "Joel is my friend and we work together"
@@ -43,7 +43,7 @@ print(string_splited)
 #concatenate strings
 first = "Hello,"
 second = "World!"
-print(first+ " "+second)
+print(first + " "+second)
 
 #String format
 age = 24

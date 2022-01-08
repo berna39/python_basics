@@ -1,9 +1,9 @@
 import math
 
-loweer = min(2,56,7,8,9,3,23,7,-2)
+loweer = min(2, 56, 7, 8, 9, 3, 23, 7, -2)
 print('The lower is :' + str(loweer))
 
-greater = max(3,5,634,6,3,8,34,-5)
+greater = max(3, 5, 634, 6, 3, 8, 34, -5)
 print('The grater is :' + str(greater))
 
 x = abs(-5.45)

@@ -11,7 +11,7 @@ S = "Azuma sarutobi"
 print(s)
 
 my_variable = "Hitachi"
-print("Hello "+my_variable)
+print("Hello " + my_variable)
 
 first, second, third = "Hashirama", "Tobirama", "Sarutobi"
 print(first)

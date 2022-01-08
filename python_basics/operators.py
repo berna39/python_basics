@@ -19,7 +19,7 @@ number **= 5 #same as number = number ** 5
 number /= 5 #same as number = number / 5
 number //= 5 #same as number = number // 5
 
-#logical operations
+#logical operations (and,or)
 age = 18
 gander = 'm'
 
