@@ -7,7 +7,7 @@ class Car:
         self.model = model
     
     def drive(self):
-        print('i drive ' + self.model +' - '+ self.mark)
+        print('i drive ' + self.model + ' - ' + self.mark)
     
     def vruum(selft):
         print('vrouuuuum')

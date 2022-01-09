@@ -6,11 +6,11 @@ def addition(a, b):
 
 #if we don't how much parameters will be passed
 def buy_cars(*cars):
-    print('i buy '+cars[2])
+    print('i buy ' + cars[2])
 
 #default parameter value
 def say_country(country = 'Kenya'):
-    print('My country is '+country)
+    print('My country is ' + country)
 
 sayHello()
 
