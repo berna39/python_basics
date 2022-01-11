@@ -56,3 +56,12 @@ my_age = 24
 sentence = "Hello, i'm Toby and i'm {} and PI = {}"
 print(sentence.format(my_age, pi))
 
+#more class formatting
+goal = 'steady rocking on the midnight train {}'.format('to zion')
+print(goal)
+
+destination = 'Zion'
+same_goal = f'steady rocking on the midnight train to {destination}'
+print(same_goal)
+
+
