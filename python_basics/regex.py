@@ -26,3 +26,13 @@ print(re.search('sol$', band))
 #oops ! care about the caracter case
 band = 'Sauti sol'
 print(re.search('Sol$', band))
+
+# the . represent any caracter
+player = 'pogba'
+print(re.search('p..ba', player))
+
+# the * represents Zero or more occurrences (caracters)
+print(re.search('p.*ba', player))
+
+
+
