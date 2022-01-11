@@ -11,3 +11,7 @@ print(random.randrange(1, 9))
 #we can make a choice randomly 
 companies = ['google', 'facebook', 'amazon', 'apple', 'microsoft']
 print(random.choice(companies))
+
+fruits = ['orange', 'banana', 'apple', 'grandine']
+random.shuffle(fruits)
+print(fruits)
