@@ -14,3 +14,9 @@ print(next(my_teacher_iterator))
 print(next(my_teacher_iterator))
 print(next(my_teacher_iterator))
 print(next(my_teacher_iterator))
+
+fruit = 'banana'
+other_iter = iter(fruit)
+
+for x in other_iter:
+    print(x)
