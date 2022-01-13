@@ -33,3 +33,8 @@ try:
 except ZeroDivisionError:
     print('Impossible zero division.')
 
+try:
+    print(12/ k) 
+except NameError:
+    print('One of these valiables does not exist')
+
