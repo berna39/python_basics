@@ -34,5 +34,7 @@ print(re.search('p..ba', player))
 # the * represents Zero or more occurrences (caracters)
 print(re.search('p.*ba', player))
 
+print(re.search('chat*', 'chateau'))
+
 
 
