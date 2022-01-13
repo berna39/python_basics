@@ -1,3 +1,5 @@
+import string
+
 basic_string = "Shikamaru"
 print("Hello " + basic_string)
 
@@ -63,5 +65,8 @@ print(goal)
 destination = 'Zion'
 same_goal = f'steady rocking on the midnight train to {destination}'
 print(same_goal)
+
+#all aplhabets in english
+print(string.ascii_uppercase)
 
 
