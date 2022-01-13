@@ -37,4 +37,8 @@ print(re.search('p.*ba', player))
 print(re.search('chat*', 'chateau'))
 
 
+#replacing with regex
+print(re.sub(r"(ab)", r" \1 ", "abcdef"))
+
+
 
