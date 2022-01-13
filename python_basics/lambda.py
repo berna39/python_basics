@@ -7,3 +7,6 @@ def multiplyer(by):
 
 my_function = multiplyer(2)
 print(my_function(5))
+
+doSomething = lambda a : a[::-1]
+print(doSomething('shango'))
