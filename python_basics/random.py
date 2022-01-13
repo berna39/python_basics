@@ -17,3 +17,10 @@ print(random.choice(companies))
 fruits = ['orange', 'banana', 'apple', 'grandine']
 random.shuffle(fruits)
 print(fruits)
+
+strickers = ['Vardy', 'Jota', 'Kane', 'Lukaku', 'Jimenez', 'Mahrez', 'Antonio', 'Woods', 'Pukki', 'Zaha', 'St Maximin', 'Salah', 'Christiano', 'Cavani', 'Daka', 'Saka']
+random_stricker = random.choice(strickers)
+print(random_stricker) #it was diogo jota ! lol
+
+random_strickers = random.choices(strickers, k=3)
+print(random_strickers) #it was diogo jota ! lol
