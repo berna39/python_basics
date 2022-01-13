@@ -28,4 +28,8 @@ try:
 except TypeError:
     print('please everify the type of your valiables.')
 
+try:
+    print(12/ 0) 
+except ZeroDivisionError:
+    print('Impossible zero division.')
 
