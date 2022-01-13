@@ -38,3 +38,15 @@ try:
 except NameError:
     print('One of these valiables does not exist')
 
+def birthYear():
+    year = input() #user's entry
+    try:
+        y = int(year)
+        if y <= 0:
+            raise ValueError('Entrer a valid year please.')
+    except ValueError:
+        print('invalid data entry')
+
+birthYear()
+            
+
