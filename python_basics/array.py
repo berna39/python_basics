@@ -20,6 +20,8 @@ print(drinks)
 drinks.append("water")
 print(drinks)
 
+print('Our Menu of drinks : ' + ' & '.join(drinks))
+
 
 
 
