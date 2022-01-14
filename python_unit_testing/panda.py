@@ -16,3 +16,10 @@ class Panda:
                 print('Est rassasié')
                 self.hunger = 100
         print(f'{self.name} vient de magers')
+    
+    def talk():
+        print('Niawwwww')
+
+    def sleep():
+        print('ZzzzzzZ')
+
