@@ -9,3 +9,10 @@ my_first_dic = {
 }
 
 print(my_first_dic)
+
+my_second_dict = {}
+
+my_second_dict[1] = 'Jim Carey'
+my_second_dict[2] = 'Denzel washington'
+
+print(my_second_dict)
