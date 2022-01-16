@@ -6,5 +6,9 @@ print(t)
 u = open('testing.txt', 'rt').read()
 print(u)
 
+#writing
+with open('my_first_file.txt', 'w') as f:
+    f.write('The lord of the ring')
+
 
 
