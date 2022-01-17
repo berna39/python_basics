@@ -7,7 +7,7 @@ print(x)
 
 
 # the [] is for a set of characters
-other = 'Piaga kazi'
+other = 'Piga kazi'
 y = re.search('[x-z]', other)
 print(y)
 
