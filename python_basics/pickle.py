@@ -17,11 +17,18 @@ for t in teams:
             team_score[t] += 1
     premier_league.append(team_score)
 
+#doing the backup of the premier league scores
 with open('scores.txt', 'wb') as file:
     backup = pickle.Pickler(file)
     backup.dump(str(premier_league))
     
 print(premier_league)
-    
+
+print('---------- retrieving data -----------')
+
+with open('scores.txt', 'rb') as file:
+    backup = pickle.Unpickler(file)
+    premier_league = backup.load()
+    print(premier_league)    
      
 
