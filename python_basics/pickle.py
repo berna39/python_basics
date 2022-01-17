@@ -2,7 +2,7 @@ import pickle
 import random
 
 results = ['win', 'lose', 'draw']
-teams = ['liecster', 'arsenal', 'norwich', 'brighton']
+teams = ['liecster', 'arsenal', 'norwich', 'brighton', 'wolvwrampton', 'leeds', 'westham', 'new castle', 'crystal palace', 'manchester united', 'chelsea', 'watford', 'burnley']
 
 premier_league = []
 
