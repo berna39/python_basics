@@ -6,16 +6,20 @@ teams = ['liecster', 'arsenal', 'norwich', 'brighton', 'wolvwrampton', 'leeds', 
 
 premier_league = []
 
-for t in teams:
+def play_matchs(team):
     team_score = {}
-    team_score[t] = 0
+    team_score[team] = 0
     for i in range(1,3):
         res = random.choice(results)
         if res == 'win':
-            team_score[t] += 3
+            team_score[team] += 3
         elif res == 'draw':
-            team_score[t] += 1
-    premier_league.append(team_score)
+            team_score[team] += 1
+    return team_score
+
+
+for t in teams:
+    premier_league.append(play_matchs(t))
 
 #doing the backup of the premier league scores
 with open('scores.txt', 'wb') as file:
