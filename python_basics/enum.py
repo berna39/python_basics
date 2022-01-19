@@ -6,3 +6,6 @@ class Gander(Enum):
 
 
 print(Gander.FEMALE)
+
+for gander in Gander:
+    print(gander)
