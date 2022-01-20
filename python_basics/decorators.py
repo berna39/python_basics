@@ -61,3 +61,11 @@ def cities(one, two):
 cities('Nairobi', 'Accra')
 
 
+# --- Defining General Purpose Decorators
+def a_decorator_passing_arbitrary_arguments(function_to_decorate):
+    def a_wrapper_accepting_arbitrary_arguments(*args,**kwargs):
+        print('The positional arguments are', args)
+        print('The keyword arguments are', kwargs)
+        function_to_decorate(*args)
+    return a_wrapper_accepting_arbitrary_arguments
+
