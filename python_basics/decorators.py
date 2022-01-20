@@ -7,6 +7,13 @@ def upper_case_decorator(function):
 
     return wrapper
 
+def split_decorator(function):
+    def wrapper():
+        func = function()
+        splited_format = func.split()
+        return splited_format
+
+    return wrapper
 
 def sayHello():
     return 'hello world'
@@ -21,3 +28,9 @@ def sayHi():
     return 'hi shango'
 
 print(sayHi())
+
+@split_decorator
+def introduce():
+    return 'my name is shango'
+
+print(introduce())
