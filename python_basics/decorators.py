@@ -34,3 +34,10 @@ def introduce():
     return 'my name is shango'
 
 print(introduce())
+
+@split_decorator #then this
+@upper_case_decorator #these decorator will be executed first
+def introduce():
+    return 'my name is shango'
+
+print(introduce())
