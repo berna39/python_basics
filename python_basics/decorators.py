@@ -1,5 +1,6 @@
 #A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure.
 from curses import wrapper
+import numbers
 import re
 
 
@@ -69,3 +70,13 @@ def a_decorator_passing_arbitrary_arguments(function_to_decorate):
         function_to_decorate(*args)
     return a_wrapper_accepting_arbitrary_arguments
 
+@a_decorator_passing_arbitrary_arguments
+def function_with_no_argument():
+    print("No arguments here.")
+
+function_with_no_argument()
+
+@a_decorator_passing_arbitrary_arguments
+def function_with_no_argument(some_number):
+    print("Arguments here is {0}".format(some_number))
+function_with_no_argument(5)
