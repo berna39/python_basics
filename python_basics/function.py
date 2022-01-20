@@ -51,3 +51,14 @@ def upper_case_my_name(name, function):
     return function(name)
 
 print(upper_case_my_name('toto', set_upper_case))
+
+# return other function 
+def function_hello():
+
+    def say_hello():
+        return 'hello'
+    return say_hello
+
+result = function_hello()
+result()
+
