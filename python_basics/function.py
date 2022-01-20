@@ -62,3 +62,12 @@ def function_hello():
 result = function_hello()
 result()
 
+#nested function have access to parameters
+def print_message(country):
+    def message_sender():
+        print(f'hakuna matata {country}')
+
+    message_sender()
+
+print_message('Kenya')
+
