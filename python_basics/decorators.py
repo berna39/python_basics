@@ -51,13 +51,13 @@ print(introduce())
 def decorator_with_arguments(function):
     def wrapper_expecting_args(arg_one, arg_two):
         print(f'my arguments are {arg_one} and {arg_two}')
-        function()
+        function(arg_one, arg_two)
     return wrapper_expecting_args
 
 @decorator_with_arguments
 def cities(one, two):
-    return 'the cities i like are {0} and {1}'.format(one, two)
+    print('the cities i like are {0} and {1}'.format(one, two))
 
-print(cities('Nairobi', 'Accra'))
+cities('Nairobi', 'Accra')
 
 
