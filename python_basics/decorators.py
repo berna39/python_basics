@@ -1,4 +1,8 @@
 #A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure.
+from curses import wrapper
+import re
+
+
 def upper_case_decorator(function):
     def wrapper():
         func = function()
@@ -41,3 +45,19 @@ def introduce():
     return 'my name is shango'
 
 print(introduce())
+
+
+#----- decorators with arguments -------
+def decorator_with_arguments(function):
+    def wrapper_expecting_args(arg_one, arg_two):
+        print(f'my arguments are {arg_one} and {arg_two}')
+        function()
+    return wrapper_expecting_args
+
+@decorator_with_arguments
+def cities(one, two):
+    return 'the cities i like are {one} and {two}'.format(one, two)
+
+print(cities('Nairobi', 'Accra'))
+
+
