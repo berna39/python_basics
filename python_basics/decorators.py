@@ -56,7 +56,7 @@ def decorator_with_arguments(function):
 
 @decorator_with_arguments
 def cities(one, two):
-    return 'the cities i like are {one} and {two}'.format(one, two)
+    return 'the cities i like are {0} and {1}'.format(one, two)
 
 print(cities('Nairobi', 'Accra'))
 
