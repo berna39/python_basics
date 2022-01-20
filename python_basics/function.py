@@ -43,3 +43,11 @@ def process(number):
 
 print(process(3))
 
+#Passing Functions as Arguments to other Functions
+def set_upper_case(word):
+    return word.upper()
+
+def upper_case_my_name(name, function):
+    return function(name)
+
+print(upper_case_my_name('toto', set_upper_case))
