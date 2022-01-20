@@ -13,3 +13,11 @@ def sayHello():
 
 upper = upper_case_decorator(sayHello)
 print(upper())
+
+
+#------ decorator -------
+@upper_case_decorator
+def sayHi():
+    return 'hi shango'
+
+print(sayHi())
