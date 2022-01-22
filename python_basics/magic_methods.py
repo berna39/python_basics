@@ -47,3 +47,14 @@ v3 = Vector(3, 5)
 v4 = Vector(4, 8)
 print(v3 + v4) #it's done :)
 print(v3 - v4) #it's done :)
+
+class Car:
+    def __init__(self, model, year):
+        self.model = model
+        self.year = year
+    
+    def __repr__(self) -> str:
+        return f'Model : {self.model}, Year : {self.year}'
+
+car = Car('BMW', 2021)
+print(car)
