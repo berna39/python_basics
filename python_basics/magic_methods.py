@@ -40,6 +40,10 @@ class Vector:
     def __str__(self):
         return f' {self.a} , {self.b}'
 
+    def __sub__(self, other):
+        return Vector(self.a - other.a, self.b - other.b)
+
 v3 = Vector(3, 5)
 v4 = Vector(4, 8)
 print(v3 + v4) #it's done :)
+print(v3 - v4) #it's done :)
