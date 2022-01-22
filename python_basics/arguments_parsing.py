@@ -1,4 +1,4 @@
 #starting with argument parsing
 
-def my_function():
+def my_function(*agrs, **kwargs): #
     pass
