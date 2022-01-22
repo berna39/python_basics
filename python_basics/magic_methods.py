@@ -56,5 +56,10 @@ class Car:
     def __repr__(self) -> str:
         return f'Model : {self.model}, Year : {self.year}'
 
+    def __call__(self):
+        print('Vruuuuuuuuum !!!')
+
 car = Car('BMW', 2021)
 print(car)
+
+car()
