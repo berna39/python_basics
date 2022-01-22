@@ -14,3 +14,17 @@ class Team:
 
 team = Team('liecester', 'England')
 print(team)
+
+
+#-------- the __add__ magic method #
+
+#the problem
+class Vector:
+    def __init__(self, a, b):
+        self.a = a 
+        self.b = b
+
+v1 = Vector(3, 5)
+v2 = Vector(4, 8)
+# v3 = v1 + v2 # this would return a typeError Exception
+        
