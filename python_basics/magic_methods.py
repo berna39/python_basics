@@ -27,4 +27,19 @@ class Vector:
 v1 = Vector(3, 5)
 v2 = Vector(4, 8)
 # v3 = v1 + v2 # this would return a typeError Exception
-        
+
+ #solution
+class Vector:
+    def __init__(self, a, b):
+        self.a = a 
+        self.b = b
+
+    def __add__(self, other):
+        return Vector(self.a + other.a, self.b + other.b)
+
+    def __str__(self):
+        return f' {self.a} , {self.b}'
+
+v3 = Vector(3, 5)
+v4 = Vector(4, 8)
+print(v3 + v4) #it's done :)
