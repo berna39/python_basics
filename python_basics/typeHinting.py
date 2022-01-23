@@ -1,6 +1,6 @@
 #python is dynamicly typed
 
-def my_function(myparameter: int):
-    print(myparameter)
+def my_function(myparameter: int) -> int:
+    return f'The parameter is : {myparameter}'
 
-my_function('Hakuna matata')
+print(my_function(23))
