@@ -8,6 +8,10 @@ class Person:
     def Name(self):
         return self.__name
 
+    @Name.setter
+    def Name(self, name):
+        self.__name = name
+
 
 
 p = Person('Hashirama senji', 43, 'M')
