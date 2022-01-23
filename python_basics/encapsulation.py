@@ -12,7 +12,25 @@ class Person:
     def Name(self, name):
         self.__name = name
 
+    @property
+    def Age(self):
+        return self.__age
+
+    @Age.setter
+    def Age(self, age):
+        self.__age = age
+
+    @property
+    def Gander(self):
+        return self.__gander
+
+    @Age.setter
+    def Age(self, gander):
+        self.__gander = gander
+
 
 
 p = Person('Hashirama senji', 43, 'M')
-#print(p.__age) this won't work
+print(p.Name)
+print(p.Age)
+print(p.Gander)
