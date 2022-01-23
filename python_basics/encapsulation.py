@@ -34,3 +34,7 @@ p = Person('Hashirama senji', 43, 'M')
 print(p.Name)
 print(p.Age)
 print(p.Gander)
+
+p.Name('Shikamaru nara')
+
+print(p.Name)
