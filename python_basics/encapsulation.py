@@ -4,6 +4,10 @@ class Person:
         self.__age = age
         self.__gander = gander
 
+    @property
+    def Name(self):
+        return self.__name
+
 
 
 p = Person('Hashirama senji', 43, 'M')
