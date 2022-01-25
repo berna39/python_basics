@@ -19,3 +19,7 @@ for index in range(len(values)):
 
 print(index) # With this example, one common bug that can occur is when you forget to update value at the beginning of 
              #  each iteration. This is similar to the previous bug of forgetting to update the index
+
+
+for count, value in enumerate(values):
+    print(count, value)
