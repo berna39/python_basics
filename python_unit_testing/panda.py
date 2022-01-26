@@ -1,8 +1,10 @@
 class Panda:
-    def __init__(self, name, age):
+    def __init__(self, name, age, location, parent):
         self.name = name
         self.age = age
         self.hunger = 50
+        self.location = location
+        self.parent = parent
     
     def __str__(self):
         return f'name = {self.name}, age = {self.age}, hunger = {self.hunger}'
