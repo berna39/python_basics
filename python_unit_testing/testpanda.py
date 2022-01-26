@@ -15,5 +15,8 @@ class TestPanda(unittest.TestCase):
         print(self.po)
         self.assertGreater(self.po.age, 0)
 
+    def test_panda_not_null(self):
+        pass
+
 if __name__ == '__main__':
     unittest.main()
